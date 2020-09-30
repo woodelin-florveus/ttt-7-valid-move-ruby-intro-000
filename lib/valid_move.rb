@@ -7,15 +7,6 @@
 
 def valid_move?(board,index_num)
 
-position = index_num.to_i
-move = -1
-
-if position_taken?(board,move) == false && move.between?(0,8)
-  return true
-else
-   false
-end
-
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
