@@ -6,7 +6,7 @@
 #Not already filled with a token.
 
 def valid_move?(board,index_num)
-if index_num.between?(0,8) && !position_taken(board,index_num)
+if index_num.between?(0,8) && !position_taken?(board,index_num)
   return true
 else
   false
