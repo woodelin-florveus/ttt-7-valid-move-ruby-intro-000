@@ -6,7 +6,7 @@
 #Not already filled with a token.
 
 def valid_move?(board,index_num)
-if 
+if
 end
 end
 
