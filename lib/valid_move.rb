@@ -6,8 +6,17 @@
 #Not already filled with a token.
 
 def valid_move?(board,index_num)
-if
+
+#what is a valid move/ a position that is not taken
+
+
+if !position_taken?(board,index_num)
+  return true
+else
+  false
 end
+
+
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
