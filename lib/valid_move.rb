@@ -9,13 +9,13 @@ def valid_move?(board,index_num)
 
 #what is a valid move/ a position that is not taken
 
+position = index_num.to_i -1 
 
 if !position_taken?(board,index_num)
   return true
 else
   false
 end
-
 
 end
 
